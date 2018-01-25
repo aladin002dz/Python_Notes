@@ -1,7 +1,7 @@
 # Python_Notes
 Some notes fron "One million arab coders" lessons
 
-##Methods
+##Methods  
 def say_hello(name):
     greeting = "Hello " + name + "!"
     return greeting
