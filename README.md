@@ -80,10 +80,10 @@ if var1:
 else:
    print "1 - Got a false expression value"
    print var1
-'''
+"""
 1 - Got a true expression value
 100
-'''
+"""
 ```
        
 ```python
@@ -100,10 +100,10 @@ elif var == 100:
 else:
    print "4 - Got a false expression value"
    print var
-'''
+"""
 3 - Got a true expression value
 100
-'''
+"""
 ```
 
 ## While loop 
