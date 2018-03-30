@@ -71,4 +71,44 @@ def say_hello(name):
 print say_hello("Miriam")  
 print say_hello("Andy") 
 ```
+## if statement
+```python
+var1 = 100
+if var1:
+   print "1 - Got a true expression value"
+   print var1
+else:
+   print "1 - Got a false expression value"
+   print var1
+```
+       
+```python
+var = 100
+if var == 200:
+   print "1 - Got a true expression value"
+   print var
+elif var == 150:
+   print "2 - Got a true expression value"
+   print var
+elif var == 100:
+   print "3 - Got a true expression value"
+   print var
+else:
+   print "4 - Got a false expression value"
+   print var
+```
+
+## While loop 
+```python
+def print_numbers(a):
+    i = 0
+    while(i < a):
+        i = i + 1
+        print i
+
+print_numbers(3)
+#>>> 1
+#>>> 2
+#>>> 3
+```
 
