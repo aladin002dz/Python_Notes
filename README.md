@@ -120,3 +120,32 @@ print_numbers(3)
 #>>> 3
 ```
 
+## For loop 
+```python
+from random import randint
+
+def random_verb():
+    x = randint(0,1)
+    if(x == 0):
+        return 'run'
+    return 'kayak'
+
+for i in range(5):
+    print random_verb()
+```
+
+## Lists
+print "EXAMPLE 1: We can use for loops to go through a list of strings"
+example_list_1 = ['a', 'b', 'c', 'd']
+for thing in example_list_1:
+    print thing
+    
+
+print "EXAMPLE 2: We can use for loops on nested lists too!"
+example_list_2 = [['China', 'Beijing'],
+                  ['USA'  , 'Washington D.C.'],
+                  ['India', 'Delhi']]
+for country_with_capital in example_list_2:
+    country = country_with_capital[0]
+    capital = country_with_capital[1]
+    print capital + ' is the capital of ' + country
